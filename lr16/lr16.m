@@ -20,8 +20,6 @@ sigmoid_derivative = @(x) x .* (1 - x);
 
 % Обучение нейросети
 for epoch = 1:epochs
-
-    
     x1 = 2 + 2 * rand();
     x2 = 4 + 2 * rand();
     x3 = 6 + 2 * rand();
